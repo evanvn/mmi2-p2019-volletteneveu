@@ -4,15 +4,20 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 5px 20px;
     position: fixed;
     top: 0;
     left: 0;
-    height: 10vh;
-    width: 100vw;
+    width:100vw;
     z-index: 10;
-  }
+}
   
-  .header__logo {
-    height: 10vh;
-  }
+.header__logo {
+    height: 80px;
+    width:auto;
+    margin-left:5%
+}
+
+.header__nav {
+    flex-grow:1;
+    margin-right:5%;
+}

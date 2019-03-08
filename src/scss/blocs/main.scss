@@ -1,3 +1,10 @@
 .main {
-    margin-top:10vh;
+    margin-top:80px;;
+}
+
+.main__imageTop {
+    height:500px;
+    background-image:url('./../assets/img/discord-player.png');
+    background-size:auto 500px;
+    background-attachment: fixed;
 }

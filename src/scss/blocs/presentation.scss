@@ -1,0 +1,21 @@
+.presentation__section {
+    background: $sombre;
+    color: $blanc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    z-index: 5;
+}
+
+.presentation__section--separator {
+    background-color: $bleu-violet;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size:32px;
+}
