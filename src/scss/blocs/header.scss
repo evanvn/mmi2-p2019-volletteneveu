@@ -1,0 +1,18 @@
+.header {
+    background: $pas-noir;
+    color: $blanc;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100vw;
+    z-index: 10;
+  }
+  
+  .header__logo {
+    height: 10vh;
+  }

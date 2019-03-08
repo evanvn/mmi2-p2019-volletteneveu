@@ -1,8 +1,60 @@
-.header {
-  background: gold;
+@import 'vendors/reset';
 
-  h1 {
-    text-align: center;
-    font-size: 50px;
+@import 'config/medias';
+@import 'config/colors';
+@import 'config/mixins';
+@import 'config/fonts';
+
+@import 'global/layout';
+@import 'global/typography';
+@import 'global/interface';
+
+@import 'blocs/header';
+@import 'blocs/footer';
+@import 'blocs/main';
+@import 'blocs/section';
+
+.top {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+
+.top__img {
+  height: 500px;
+  width: 100vw;
+}
+
+.section {
+  background: $sombre;
+  color: $blanc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  z-index: 5;
+  &:first-of-type {
+    margin-top: 80vh;
   }
+}
+
+.section--separator {
+  background-color: $bleu-violet;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  font-size:32px;
+}
+
+.footer {
+  background: #23272a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
