@@ -4,6 +4,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction:column;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,9 +13,9 @@
 }
   
 .header__logo {
-    height: 80px;
+    height: 6vh;
     width:auto;
-    margin-left:5%
+    margin-left:1%
 }
 
 .header__nav {

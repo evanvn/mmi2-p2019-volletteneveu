@@ -1,0 +1,13 @@
+.images {
+    width:20%;
+    height:auto;
+}
+
+.images__image--phone {
+    transform: translateX(-25%);
+    @include animation-keyframes(phone,3s,infinite) {
+        0%{transform:translateX(-25%) translateY(0px);}
+        50%{transform:translateX(-25%) translateY(20px);}
+        100%{transform:translateX(-25%) translateY(0px);}
+    }
+}

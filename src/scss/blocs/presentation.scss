@@ -2,9 +2,10 @@
     background: $sombre;
     color: $blanc;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 500px;
+    flex-direction:column;
+    padding:1% 5%;
     z-index: 5;
 }
 
