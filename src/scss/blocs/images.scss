@@ -6,8 +6,15 @@
 .images__image--phone {
     transform: translateX(-25%);
     @include animation-keyframes(phone,3s,infinite) {
-        0%{transform:translateX(-25%) translateY(0px);}
-        50%{transform:translateX(-25%) translateY(20px);}
-        100%{transform:translateX(-25%) translateY(0px);}
+        0%{transform:translateX(-25%) translateY(0);}
+        50%{transform:translateX(-25%) translateY(-1%);}
+        100%{transform:translateX(-25%) translateY(0);}
+    }
+}
+
+.images__image--computer {
+    display:none;
+    @media(min-width:600px) {
+        display:block;
     }
 }

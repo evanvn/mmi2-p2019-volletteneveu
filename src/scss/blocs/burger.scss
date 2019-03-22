@@ -1,0 +1,36 @@
+.burger {
+  height: 15px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger__stick {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.burger--active {
+  & .burger__stick {
+    width: 92%;
+  }
+
+  & .burger__stick--top {
+    transform-origin: top left;
+    transform: rotate(45deg);
+  }
+
+  & .burger__stick--middle {
+    opacity: 0;
+  }
+
+  & .burger__stick--bottom {
+    transform-origin: bottom left;
+    transform: rotate(-45deg);
+  }
+}
