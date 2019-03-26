@@ -10,13 +10,11 @@
 }
 
 .presentation__section--separator {
-    background-color: $blurple;
-    color: white;
+    background-color: #7289da;
+    color: #fff;
     font-weight: 900;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 30vh;
-    font-size:32px;
+    font-size: 4vw;
+    text-align: center;
 }
