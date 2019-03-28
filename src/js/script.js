@@ -16,9 +16,3 @@ sections.forEach(section => {
         offset: '2%'
     })
 })*/
-
-btn.addEventListener('click', toggleMenu);
-
-function toggleMenu() {
-    btn.classList.toggle('burger--active');
-}
