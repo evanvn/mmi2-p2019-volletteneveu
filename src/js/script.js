@@ -16,3 +16,11 @@ sections.forEach(section => {
         offset: '2%'
     })
 })*/
+
+let link = document.getElementsByTagName('a');
+
+for(let i = 0 ; i < link.length ; i++) {
+    link[i].addEventListener('click', function(event) {
+        console.log(event);
+    });
+} 
