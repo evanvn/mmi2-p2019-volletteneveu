@@ -1,6 +1,6 @@
 .presentation__section {
-    background: $sombre;
-    color: $blanc;
+    background: $dark;
+    color: $white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -10,13 +10,14 @@
 }
 
 .presentation__section--separator {
-    background-color: $bleu-violet;
+    background-color: $blurple;
     color: white;
     font-weight: 900;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
     font-size:32px;
+    text-align:center;
+    padding:4vh 4vh;
 }

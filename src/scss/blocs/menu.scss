@@ -7,11 +7,17 @@
     background-color:#000;
     padding-left:0px;
     margin:0px;
+    position:absolute;
+    left:0;
+    top:-100vh;;
+    transition:.2s;
+    opacity:0;
+}
 
-    @media (min-width:800px) {
-        flex-direction: row;
-        position:unset;
-    }
+.header__input:checked ~ .menu {
+    top:6vh;
+    opacity:1;
+    z-index:2;
 }
 
 .menu__ul {
@@ -22,17 +28,22 @@
 
 .menu__li {
     list-style: none;
-    border-top: 1px solid $sombre;
-    width:100%;
+    border-top: 1px solid $dark;
     text-align:center;
     font-weight:lighter;
-    padding:10px 0px;
 
-    @media (min-width:800px) {
+    @media (min-width:$small) {
         border-top:none;
     }
 }
 
 .menu__a {
-    
+    display: block;
+    height:100%;
+    width:100%;
+    padding: 10px 0;
+
+    &:active {
+        background-color:$white;
+    }
 }
