@@ -30,6 +30,7 @@
 }
 
 .images__image--phone {
+<<<<<<< HEAD
     @include animation-keyframes(phone,1.2s,infinite) {
         0%{transform: translate(0%,0px);}
         20%{transform: translate(0%,-5px) rotate(0.5deg);}
@@ -37,6 +38,20 @@
         60%{transform: translate(0%,-5px) rotate(2deg);}
         80%{transform: translate(0%,-5px) rotate(-2deg);}
         100%{transform: translate(0%,0px);}
+=======
+    transform: translateX(-25%);
+    @include animation-keyframes(phone,3s,infinite) {
+        0%{transform:translateX(-25%) translateY(0);}
+        50%{transform:translateX(-25%) translateY(-1%);}
+        100%{transform:translateX(-25%) translateY(0);}
+    }
+}
+
+.images__image--computer {
+    display:none;
+    @media(min-width:600px) {
+        display:block;
+>>>>>>> 22a1349b75ca21b93754c433a18ebe155c054d45
     }
 
 }

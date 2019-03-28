@@ -10,6 +10,7 @@
 }
 
 .presentation__section--separator {
+<<<<<<< HEAD
     background-color: $blurple;
     color: white;
     font-weight: 900;
@@ -20,4 +21,13 @@
     font-size:32px;
     text-align:center;
     padding:4vh 4vh;
+=======
+    background-color: #7289da;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    height: 30vh;
+    font-size: 4vw;
+    text-align: center;
+>>>>>>> 22a1349b75ca21b93754c433a18ebe155c054d45
 }
