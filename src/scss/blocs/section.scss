@@ -9,3 +9,24 @@
     max-width:70%;
     text-align: center;
 }
+
+.section__figure {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.section__image {
+    width:80vw;
+}
+
+.section__catch {
+    display:block;
+    color:$blurple;
+    margin-top:5%;
+}
+
+.section__emote {
+    color:$greyple;
+}

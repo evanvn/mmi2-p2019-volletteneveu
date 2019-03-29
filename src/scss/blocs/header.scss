@@ -34,7 +34,7 @@
   cursor: pointer;
   z-index: 10;
 
-  @media (min-width: $small) {
+  @media (min-width: $medium) {
     display:none;
   }
 }
