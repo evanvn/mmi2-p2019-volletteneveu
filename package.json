@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "scss": "parcel build src/scss/styles.scss src/scss/**/*.scss"
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
